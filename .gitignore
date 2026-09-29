@@ -1,0 +1,12 @@
+# Terraform working files and state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Secrets and local settings
+.env
+*.pem
+
+# Python
+__pycache__/
